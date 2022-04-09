@@ -1,0 +1,7 @@
+AULA 6 e 7
+
+1- exiba com um alerta a seguinte mensagem de boas-vindas ao usuário: Bem vindo! A seguir pediremos que informe alguns dados.
+2- peça que o usuário informe o nome
+3- peça que o usuário informe a idade
+4- peça que ele confirme a idade
+5 exiba com um alerta: o nome do usuário difitado, a idade digitada e a confirmação da idade.
