@@ -1,0 +1,26 @@
+Aula 16 e 17 exercício 1 de condicional 
+
+utilizando condicionais:
+
+* O código deve estar num arquivo separado e importado numa página HTML
+
+Neste exercício vamos simular o sistema de navegação de uma nave interagindo com o usuário.
+
+1- Perguntar o nome do piloto
+2- Colocar a velocidade inicial da nave como 0
+3- Perguntar a qual velocidade ele gostaria de acelerar a nave
+4- Pedir uma confirmação informando que está indo para velocidade x km/s 
+* se quiser, atualize a velocidade
+5- Exibir uma das seguintes mensagens com base na velocidade escolhida:
+
+* se a velocidade for menor ou igual a 0 "A nave está parada.. Considera partir e aumentar a velocidade"
+
+* Se for menor que 40km/s "Você está devagar, podemos aumentar mais a velocidade"
+
+* Se for maior ou igual a 40km/s e menor que 80km/s "Parece que estamos em uma velocidade boa para manter"
+
+* se for maior ou igual a 80km/s e menor que 100km/s "Velocidade alta. Considere diminuir"
+
+* Se for maior ou igual a 100km/s "Velocidade perigosa. Controle automático forçado" ---- exibir como alerta 
+
+6- Imprimir no final o nome do piloto com a velocidade atual.
