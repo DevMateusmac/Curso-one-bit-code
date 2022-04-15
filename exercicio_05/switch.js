@@ -26,7 +26,7 @@ switch(chosenOption){
 }
 alert(`Distância em Anos-luz: ${distanceInLY} \n${chosenUnity}: ${convertedDistance}`)
 
-
+// REVER ESSA AULA COM ANOTAÇÕES
 
 
 
