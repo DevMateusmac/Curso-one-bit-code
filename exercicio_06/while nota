@@ -1,0 +1,27 @@
+Utilizando o while Aula 23 
+* código separado e importado numa página HTML
+
+Neste exercício vamos simular o sistema de navegação de uma nave interagindo com o usuário.
+
+para este problema teremos:
+
+1- Pedir o nome da nave
+2- Perguntar se deseja entrar na dobra com a seguinte mensagem:
+* Deseja entrar em dobra espacial?
+1- sim
+2- não
+*Se a resposta for sim, contabilizaremos uma dobra
+
+3- O usuário deve ser perguntado se deseja realizar a próxima dobra 
+*Deseja realizar a próxima dobra?
+1-Sim
+2-Não
+Para cada "sim", vamos contabilizar mais uma dobra realizada
+
+4- Apergunta deve ser feita novamente, até que a escolha seja "não"
+
+5- Ao escolher "não" em qualquer pergunta, a contagem deve ser encerrada;
+
+9- O programa deve informar o nome da nave e o número de vezes seguidos que a dobra espacial foi realizada.
+
+
