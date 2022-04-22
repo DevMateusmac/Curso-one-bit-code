@@ -1,0 +1,22 @@
+Exercitando funções: Aula 37 
+
+* o código deve estar num arquivo separado e importado numa página HTML
+
+* Neste exercício, vamos criar um programa de bordo para nossa nave que: receba o nome da nave
+
+* A velocidade da nave deve ser inicialmente 0 e um menu deve ser exibido para que o usuário escolha entre as seguintes opções:
+
+1- acelerar a nave em 5km/s
+2- Desacelerar em 5km/s: * por mais que desacelere, a nave não pode ter uma velocidade menor que 0km/s 
+3- imprimir dados de bordo: * Deve ser impresso o nome da nave com sua velocidade atual
+4- Sair do programa
+
+Caso a pessoa escolha um número que não está na lista, é necessário exibir o menu novamente até que seja escolhida uma opção válida.
+Para fazer este app precisaremos:
+
+1- Criar uma função que exiba o menu e valide a opção escolhida.
+2- Criar uma função que exiba o menu de acelerar, desacelerar e imprimir dados de bordo.
+3- Encerrar o app somente quando digitar para sair.
+
+Lembre-se que funções podem ser chamadas e construidas à vontade para estruturar seu código: dentro de switches, ifs, elses, estruturas de repetição, deixa o espírito de programador fluir!
+
