@@ -1,9 +1,56 @@
 // Aqui esta a correção:
 
+let nameShip = prompt(`Digite o nome da nave`)
 
+let shipVelocity = 0 
 
+let chosenOption
 
+function menu(){
+    let option 
+    while(option != "1" && option != "2" && option != "3" && option != "4"){
+    option = prompt(`O que deseja fazer? \n1- Acelerar a nave em 5km/s \n2- Desacelerar a nave em 5km/s \n3- Dados de bordo \n4- Encerrar o programa`)
+    }
+    return option
+}
+menu()
 
+function speedUp (velocity){
+    let newVelocity = velocity + 5
+    alert(`A velocidade da nave foi aumentada em 5km/s! \nVelocidade atual: ${newVelocity}`)
+    return newVelocity
+}
+
+function slowDown (velocity){
+    newVelocity = velocity - 5
+    if(newVelocity < 0){
+        newVelocity = 0
+    }
+    alert(`A velocidade da nave foi diminuida em 5km/s! \nVelocidade atual: ${newVelocity}km/s.`)
+    return newVelocity
+}
+
+function boardPanel(name, velocity){
+    alert(`Dados de bordo \nNome da nave: ${nameShip}.\nVelocidade atual: ${shipVelocity}km/s.`)
+}
+
+do {
+    chosenOption = menu()
+    switch(chosenOption){
+        case "1":
+            shipVelocity = speedUp(shipVelocity)
+            break
+        case "2":
+            shipVelocity = slowDown(shipVelocity)
+            break
+        case "3":
+            boardPanel(nameShip, shipVelocity)
+            break
+        default:
+            alert(`Encerrando programa de bordo`)
+    }
+
+}while(chosenOption != "4")
 
 
 
