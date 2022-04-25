@@ -13,7 +13,7 @@ function menu(){
     }
     return option
 }
-menu()
+
 
 function speedUp (velocity){
     let newVelocity = velocity + 5
