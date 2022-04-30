@@ -1,0 +1,22 @@
+Exercício: Praticando arrays 
+* o código deve estar num arquivo separado e importado numa página HTML
+
+* Temos abaixo, um array bidimencional de naves que estão engatadas numa estação espacial.
+* Para cada sub-array, a primeira posição é o nome da nave, a segunda é a quantidade de tripulantes e a terceira informa se o processo de engate já foi concluído ou não.
+* Nesta lista, a plataforma de engate que a nave está parada é o [índice da nave no array +1]
+* Com base neste array, nós queremos:
+1- Filtrar o nome das naves que tem mais de 9 tripulantes.
+2- Informar o número da plataforma em que está a primeira nave que ainda não está com engate pendente 
+  *utilize a função findindex, que é bem parecida com o find, mas retorna o índice de um filtro em vez do elemento do array..
+3- Destacar o nome de todas as naves colocando-as em caixa alta e exibindo.
+4- Exibir um alerta com todas estas informações.
+
+    dica: ler sobre as funções findIndex e join dos arrays nos links abaixo. utilizaremos na resolução 
+
+    const hitchedSpaceships = [
+      ["Fenix", 8, true],
+      ["Golias", 10, true],
+      ["Helmet", 5, false],
+      ["Elemental", 3, true]
+      ["Darwin", 15, false]
+    ]
