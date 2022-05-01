@@ -6,6 +6,19 @@ const hitchedSpaceships = [
     ["Darwin", 15, false]
   ]
 
-  let test = hitchedSpaceships.forEach(function(arrayname){
-      console.log(arrayname)
-  })
+  let test = hitchedSpaceships.filter(spaceship => { return spaceship[1] > 9 }) .map(spaceship =>{ return spaceship[0]})
+
+  let pendingpark = hitchedSpaceships.findIndex(spaceship => {return spaceship[2] == false}) 
+
+  let upcasedname = hitchedSpaceships.map(spaceship => {return spaceship[0].toUpperCase()})
+
+
+  console.log(test)
+
+  console.log(pendingpark)
+
+  console.log(upcasedname)
+
+  alert(`Naves com mais de 9 tripulantes: ${test.join(", ")}. \n Número da plataforma que está a nave com engate pendente: ${pendingpark + 1}. \nNome das naves em caixa alta: ${upcasedname.join(", ")}.`)
+
+  
