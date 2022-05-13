@@ -29,29 +29,38 @@ switch(spaceship.type){
 }
 
 
-spaceship.speedUp = function (velocity, maxVelocity){
-    spaceship.otherVelocity = prompt(`Quanto você quer acelerar a nave?`)
+spaceship.speedUp = function (spaceshipSpeedUp, acceleration){
+    acceleration = prompt(`Quanto você quer acelerar a nave?`)
     
-    if(otherVelocity > spaceship.maxVelocity){
-        otherVelocity = maxVelocity
-       
+    if(acceleration > spaceshipSpeedUp.maxVelocity){
         alert(`Velocidade escolhida ultrapassa o valor máximo escolhido para a nave!`) 
-        velocity += spaceship.otherVelocity
-        alert(`A velocidade atual da nave é ${spaceship.velocity}`)
+        acceleration = spaceshipSpeedUp.maxVelocity
+       
+        spaceshipSpeedUp.velocity += acceleration
+        alert(`A velocidade atual da nave é ${spaceshipSpeedUp.velocity}`)
     }else {
-        velocity += spaceship.otherVelocity
-        alert(`Velocidade aumentada para ${spaceship.velocity}.`)
+        spaceshipSpeedUp.velocity += acceleration
+        alert(`Velocidade aumentada para ${spaceshipSpeedUp.velocity}.`)
     }
+     
 }
 
 do{
     chosenOption = spaceship.menu()
     switch(chosenOption){
         case "1":
-            spaceship.speedUp()
+            spaceship.speedUp(spaceship)
             break
         case "2":
-            alert(`Parando a nave! \nNome da nave: ${spaceship.name}. \nTipo da nave: ${spaceship.type} \nVelocidade alcançada: ${spaceship.velocity}.`)
+            alert(`Parando a nave! \nNome da nave: ${spaceship.name}. \nTipo da nave: ${spaceship.type} \nVelocidade alcançada: ${spaceship.velocity}km/s.`)
     }
 } while(chosenOption != "2")
+
+
+
+
+
+//criar a variável ali em cima em speedup de nova velocidade, pra não ficar vindo 0+velocidade escolhida, o erro ta dando na velocidade, na função de speedup
+
+
 
