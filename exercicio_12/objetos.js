@@ -53,6 +53,7 @@ do{
             break
         case "2":
             alert(`Parando a nave! \nNome da nave: ${spaceship.name}. \nTipo da nave: ${spaceship.type} \nVelocidade alcançada: ${spaceship.velocity}km/s.`)
+            break
     }
 } while(chosenOption != "2")
 
