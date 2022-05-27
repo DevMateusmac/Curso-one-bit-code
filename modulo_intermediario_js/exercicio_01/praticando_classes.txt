@@ -1,0 +1,65 @@
+Exercício - praticando classes Aula 5
+
+Arquivo script deve estar separado e importado ao HTML
+
+> Temos uma estação espacial que tem uma lista de naves engatadas.
+> Cada nave possui nome, quantidadew de tripulantes, uma informação se esá ou não engatada e outra informando se as portas de entrada estão abertas.
+
+> Para gerenciar esses dados um menu deve ser exibido com as seguntes opções:
+    1- Realizar engate
+        > Nesta opção deve ser possivel cadastrar uma nave com nome e número de tripulantes.
+
+        > Após o cadastro, a nave pode ser engatada. Quando uma nave é engatada, suas portas também são abertas. Então, além de alterar a propriedade da nave que informa se ela está engatada, altere também a propriedade que informa se as portas de entrada estão abertas.
+
+    2- Imprimir naves
+        > A lista de naves deve ser impressa com um alert.
+
+    3- Sair do programa
+        > Ao clicar para sair, o programa é encerrado.
+
+
+Para este exercício:
+
+    * Crie apenas a classe para a espaçonave
+        > Esta classe deve ter o método para engatar a nave
+
+    * Crie um array para armazenar as espaçonaves
+
+    * O programa deve ser encerrado somente quando o usuário digitar a opção para sair
+        > Caso o usuário ecolha uma opção inválida, mostre o menu novamente 
+
+
+
+
+
+
+
+
+
+rascunho do código
+
+let spaceships = [
+    {name: "Schatten", 
+    crewQuantity: 5, 
+    engage: true, 
+    doors: true},
+
+    {name: "Angst",
+    crewQuantity: 15,
+    engage: false,
+    doors: false
+    },
+
+    {name: "Zeit",
+    crewQuantity: 10,
+    engage: false,
+    doors: false
+    },
+
+    {name: "Auslander",
+    crewQuantity: 9,
+    engage: true,
+    doors: true
+    }
+]
+
