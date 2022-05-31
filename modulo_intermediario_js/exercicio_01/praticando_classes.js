@@ -1,16 +1,16 @@
+
 class SpacialStation {
-    constructor(name, crewQuantity, engage, doors){
+    constructor(name, crewQuantity){
         this.name = name
         this.crewQuantity = crewQuantity
-        this.engage = engage
-        this.doors = doors
+        this.engage = false
+        this.doors = false
     }
     toEngage() {
-
+        this.engage = true
+        this.doors = true
     }
 }
 
 
-let schatten = new SpacialStation("Schatten", 12, true, true)
 
-console.log(schatten)

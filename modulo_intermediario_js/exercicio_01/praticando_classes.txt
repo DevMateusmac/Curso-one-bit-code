@@ -28,38 +28,3 @@ Para este exercício:
     * O programa deve ser encerrado somente quando o usuário digitar a opção para sair
         > Caso o usuário ecolha uma opção inválida, mostre o menu novamente 
 
-
-
-
-
-
-
-
-
-rascunho do código
-
-let spaceships = [
-    {name: "Schatten", 
-    crewQuantity: 5, 
-    engage: true, 
-    doors: true},
-
-    {name: "Angst",
-    crewQuantity: 15,
-    engage: false,
-    doors: false
-    },
-
-    {name: "Zeit",
-    crewQuantity: 10,
-    engage: false,
-    doors: false
-    },
-
-    {name: "Auslander",
-    crewQuantity: 9,
-    engage: true,
-    doors: true
-    }
-]
-
