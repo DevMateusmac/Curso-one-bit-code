@@ -1,0 +1,1 @@
+Aqui fiz um teste sozinho com estrutura de repetição do..while e estrutura condicional múltipla
