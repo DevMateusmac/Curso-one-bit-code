@@ -33,21 +33,17 @@ function cadastro(){ // opção 1
     if(confirmEngage == true){
         newSpaceship.toEngage()
     }
-
-    spaceships.push(newSpaceship)
-    console.log(spaceships[0].crewQuantity)
-    console.log(newSpaceship)
-   
-
+  
+    return newSpaceship 
     // ver o metodo foreach, ele nao ta mostrando todo o objeto, mas ali de um em um mostrou, 
 }
-//cadastro()
 
 
-function dadosDeBordo(){ // opção 2
-    spaceships.forEach(function(spaceship, Crew){
-        alert(`Nave: ${spaceship} \nTripulantes: ${Crew}`)
-    })
+function dadosDeBordo(spaceships){ // opção 2
+    let spaceshipList = ""
+    spaceships.forEach(function(spaceship){
+        spaceshipList += alert(`Nave: ${spaceship.name} \nTripulantes: ${spaceship.crewQuantity}`)
+    }) // aqui do jeito que está, a callback me retorna um alert para cada nave, se eu colocar o alert para me mostrar o spaceshiplist ele vai mostrar todas as naves registradas
 }
 
 
@@ -57,7 +53,9 @@ do{
     chosenOption = menu()
     switch(chosenOption){
         case "1":
-            cadastro()
+            let addSpaceship = cadastro()
+            spaceships.push(addSpaceship)
+
             break
         case "2":
             dadosDeBordo(spaceships)
@@ -70,6 +68,6 @@ do{
 } while (chosenOption != "3")
 
 
-
+// consegui finalizar o exercício, o final do exercício tive que rever a aula para terminar, vou rever a aula de interação em array, e a aula de resolução novamente. a passagem de parâmetro também precisa ser revisada.
 
 
