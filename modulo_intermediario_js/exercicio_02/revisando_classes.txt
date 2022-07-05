@@ -1,0 +1,31 @@
+* Este é o último exercício que veremos o JS de forma independente.
+* No próximo módulo, começaremos a exercitar o JS integrado ao HTML.
+
+1- Vamos criar um sistema de monitoramento de uma nave espacial.
+2- Logo que o sistema é iniciado, ele deve pedir os dados da nave.
+3- Para a nave que for cadastrada, precisamos de:
+    * Nome
+    * Quantidade de tripulantes
+4- Os veículos podem ser de batalha ou de transporte.
+5- Caso seja de batalha: ele também deverá pedir quantas armas a nave tem disponíveis.
+6- Caso seja de transporte: o número de lugares que ela comporta.
+7- Além disso, a nave deve ser iniciada com velocidade atual igual a 0
+8- Um menu deverá ser apresentado ao usuário com as opções:
+    1- Acelerar a nave
+    2- Trocar a nave
+    3- imprimir e sair
+
+9- Para acelerar a nave, é necessário pedir a aceleração.
+10- A velocidade deve aumentar 83% da aceleração passada como parâmetro devido à taxa de desaceleração.
+11- Para a nossa aplicação, toda a aceleração tem uma taxa de desaceleração fixa de 17%
+    *velocidade atual + (aceleração * (1 - taxa de desaceleração))
+
+12- Outra importante funcionalidade é trocar a nave.
+13- Para trocar, todos os dados de carastro serão solicitados novamente e a nova naveserá iniciada com velocidade 0.
+14- Na última opção, precisaremos imprimir a espaçonave e sair.
+15- A impressão deve ser no formato:
+    nome: <nome>
+    quantidade de tripulantes: <quantidade>
+    velocidade atual: <velocidade atual>
+
+PS: Neste exercício, qualquer classe que for declarada deve ser separada num arquivo a parte, deixando no arquivo principal apenas a inicialização da aplicação e a chamada para outras classes.
