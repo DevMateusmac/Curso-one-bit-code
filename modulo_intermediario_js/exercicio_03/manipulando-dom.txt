@@ -1,0 +1,19 @@
+Manipulando o DOM
+
+Aqui faremos um exercício simples
+
+- Queremos adicionar uma lista de casas e precisamos de apenas 4 informações: número da residência, bairro, cidade e área da casa
+- Devem ser exibidos para o usuário os quatro campos para que ele possa preencher as informações da casa. Quando ele clicar no botão "adicionar", a casa deve ser adicionada numa lista logo abaixo do formulário.
+- Quando este elemento for adicionado na lista, ele deve vir com um botão "remover" onde, quando clicado o elemento é removido da lista.
+
+Para realizar esta atividade precisaremos:
+
+1- Pesquisar sobre a função createElement.
+    * Sugestão de link para pesquisa no texto dessa aula.
+2- Pesquisar sobre a função setAttribute.
+3- Pesquisar sobre a função removeChild
+4- Pesquisar sobre parentNode
+5- Criar o formulário com os campos e o botão.
+6- Criar a função que vai adicionar os elementos na lista abaixo do formulário.
+7- Criar a função de remover
+8- Testar tudo :D 
