@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício form</title>
+</head>
+<body>
+    <form action="https://example.com">
+        <div>
+            <h2>Cadastro da liga dos astronautas</h2>
+            <label>Nome:</label>
+            <input type="text" name="firstname"> <br><br>
+        </div>
+        
+        <div>
+            <label>Email:</label>
+            <input type="email" name="email">
+            <label>- Password:</label>
+            <input type="password" name="password"> <br><br>
+        </div>
+
+        <div>
+            <label>Data de nascimento:</label>
+            <input type="date" name="bday">
+            <label>- Foto:</label>
+            <input type="file" name="picture"><br><br>
+        </div>
+
+        
+        <div>
+            <label>Nacionalidade:</label>
+            <select name="nacionality">
+                <option value="Russo">Russo</option>
+                <option value="Americano">Americano</option>
+                <option value="Brasileiro">Brasileiro</option>
+            </select>
+            <label>- Genero:</label>
+            F <input type="radio" name="gender">
+            M <input type="radio" name="gender"><br><br>
+        </div>
+
+        <div>
+            <label>Suas principais qualidades:</label><br>
+            <label>Inteligência</label> <input type="checkbox" name="qualities">
+            <label>|Resiliência</label> <input type="checkbox" name="qualities">
+            <label>|Preparo físico</label> <input type="checkbox" name="qualities">
+            <label>|Educação</label> <input type="checkbox" name="qualities"><br><br>
+        </div>
+
+        <div><textarea name="description" cols="30" rows="10" placeholder="Por que você gostaria de ser um astronauta?"></textarea><br>
+        </div>
+
+        <div>
+            <input type="submit" value="Criar">
+        </div>
+
+        
+
+    </form>
+</body>
+</html>

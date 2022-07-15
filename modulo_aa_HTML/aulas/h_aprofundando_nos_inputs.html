@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprofundando nos Inputs</title>
+</head>
+<body>
+    <h3>Entre</h3>
+    <form action="https://www.example.com">
+        <input type="text" name="First Name"> <br> <br><!-- tipo text-->
+        <input type="password" name="psw"> <br> <br> <!-- tipo password-->
+        <input type="submit" value="submit"> <br> <br><!-- tipo botao submit-->
+
+        <!--tipo radio (caixa de marcar opções, em name deve ter os mesmos dados, para o backend saber onde colocar esses dados)-->
+        <input type="radio" name="gender">Male <br>
+        <input type="radio" name="gender">Female <br>
+        <input type="radio" name="gender">Other <br>
+        <input type="submit" value="submit"><br><br>
+
+        <!-- e tem o checkbox, que vai permitir a seleção multipla de opções, diferente do radio que permite apenas 1-->
+        <input type="checkbox" name="vehicle1" value="Bike">I have a bike <br>
+        <input type="checkbox" name="vehicle2" value="Car">I have a Car <br>
+        <input type="checkbox" name="vehicle3" value="motorcycle">I have a motorcycle <br>
+        <input type="submit" value="submit"><br><br>
+
+        <!-- dar entrada em cores-->
+        <input type="color" name="favcolor"><br><br>
+        <input type="submit" value="submit"><br><br>
+
+
+        <!--inserir datas -->
+        <input type="date" name="bday"><br><br>
+        <input type="submit" value="submit"> <br>
+
+
+        <!-- Inserir arquivos-->
+        select a file: <input type="file" name="myFile"><br>
+        <input type="submit" value="submit"> <br><br>
+
+        <!--Inserir mecanismo de pesquisa para o google-->
+        Search Google:
+        <input type="search" name="googlesearch"><br>
+        <input type="submit" value="submit"> <br>
+
+
+
+    </form>
+</body>
+</html>
