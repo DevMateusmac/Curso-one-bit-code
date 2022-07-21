@@ -1,0 +1,31 @@
+
+/*
+*{
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+}
+*/
+/*
+h1 + h4{
+  border: 3px;
+  border-style: dashed;
+*/
+
+/*Seletor por descendência*/
+li a {
+  color:magenta;
+}
+ 
+/*Seletor de pai e filho*/
+li > a{
+  color: orange;
+}
+
+a[href='#']{
+  font-size: 50px;
+}
+
+li:nth-last-of-type(odd){
+  color:deeppink
+}

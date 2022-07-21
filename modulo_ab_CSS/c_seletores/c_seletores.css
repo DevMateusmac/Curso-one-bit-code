@@ -1,0 +1,12 @@
+.moon{
+  color: green;
+}
+
+.big-text{
+  font-size: 50px;
+}
+#other-font{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: blue;
+}

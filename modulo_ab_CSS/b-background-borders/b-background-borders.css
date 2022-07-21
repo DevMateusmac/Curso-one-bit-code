@@ -1,0 +1,23 @@
+h1{
+  color:purple;
+  background-color:blue;
+  border-color:yellow;
+  border-width: 2px;
+  border-style: solid;
+}
+
+/*exemplo de como abreviar o comando de borda em uma linha só*/
+h1{
+  border: 2px solid orange;
+}
+
+li{
+  color:green;
+}
+
+body{
+  background-color: grey;
+  background-image: url(counter-strike-painel-festa-2x1m-festa-infantil-temas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
