@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+img{
+  width: 150px;
+}
+
+.header{
+  background-color: black;
+  column-gap: 620px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.rock{
+  width: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.logo{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+
+.button-item {
+  padding: 3px;
+  background-color: black;
+  border: 5px solind white;
+  border-radius: 8px;
+  color: white;
+}

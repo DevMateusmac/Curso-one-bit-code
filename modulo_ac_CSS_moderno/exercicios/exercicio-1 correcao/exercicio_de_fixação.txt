@@ -1,0 +1,2 @@
+exercício de fixação 1, manipulando flexbox
+esta é a correção, com algumas anotações
