@@ -1,0 +1,2 @@
+Segundo exercício do módulo css moderno
+O exercício consiste em replicar o modelo apresentado no vídeo da aula 10 - Apresentando o exercício de flexbox
