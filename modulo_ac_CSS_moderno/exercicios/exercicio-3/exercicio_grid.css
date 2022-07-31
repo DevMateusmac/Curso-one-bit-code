@@ -1,14 +1,17 @@
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .container{
   background-color: darkgray;
   min-height: 100vh;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 0.4fr .8fr 0.4fr 0.4fr;
+  grid-template-rows: .4fr .4fr;
   gap: 10px 15px;
+  grid-auto-rows: 310px, auto;
 }
 .content{
   background-color: white;
@@ -19,4 +22,3 @@
 .paragraph{
   font-size: 30px;
 }
-/* agora está faltando manipular a linha e afinar a coluna, tudo isso no container */
