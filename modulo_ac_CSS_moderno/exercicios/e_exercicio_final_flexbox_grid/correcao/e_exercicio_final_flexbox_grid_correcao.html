@@ -5,143 +5,133 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Exercício final flexbox + grid</title>
-  <link rel="stylesheet" href="e_exercicio_final_flexbox_grid.css">
+  <link rel="stylesheet" href="e_exercicio_final_flexbox_grid_correcao.css">
 </head>
 <body>
   <div class="container">
     
     <header class="header">
-      <div><img src="imagens/logo-onebitcode.svg" alt="img-onebitcode" class="imagem-header"></div>
-      <div>
-        <input type="button" value="Login" class="button">
-        <input type="button" value="Registro" class="button">
-        <input type="button" value="FAQ" class="button">
+      <img src="../imagens/logo-onebitcode.svg" alt="img-onebitcode" class="logoNavBar">
+      <div class="headerBtnGroup">
+        <input type="button" value="Login" class="navBtn">
+        <input type="button" value="Registro" class="navBtn">
+        <input type="button" value="FAQ" class="navBtn">
       </div>
     </header>
-    <div class="tittle">
-      <h1>BEM VINDO A ONEBITSPORTS!</h1>
-      <p class="shortdesc">Aqui é onde você encontra todos os itens mais novos e modernos do seu esporte preferido.</p>
-    </div>
-    <section class="main-content">
-      <!-- dentro da div: 1-boxe 2-crossfit 3-natação 4-roupas 5-basquete 6-corrida 7-surf 8-trilha 9-tenis-->
-      
+    
+      <h1 class="sectionTitle" id="backToTop">BEM VINDO A ONEBITSPORTS!</h1>
+      <p class="sectionDescription">Aqui é onde você encontra todos os itens mais novos e modernos do seu esporte preferido.</p>
+    
+    <section class="gridContainer">  
 
-      <div class="content item1">
-        <a href="#" class="link">
-          <img src="imagens/boxe.jpg" alt="boxe" class="images-content">
-          <h3>BOXE</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores libero cumque voluptas ducimus hic itaque id! Repudiandae fugiat temporibus, in incidunt quas iusto ea esse qui, beatae aut ducimus iste.</p>
-        </a>
+      <div class="mainContent">
+        <div class="categoryCard item1">
+        
+            <img src="../imagens/boxe.jpg" alt="boxe" class="mainCardImg">
+            <h3 class="mainCategoryCardTitle">BOXE</h3>
+            <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores libero cumque voluptas ducimus hic itaque id! Repudiandae fugiat temporibus, in incidunt quas iusto ea esse qui, beatae aut ducimus iste.</p>
+        
+        </div>
+        <div class="categoryCard item2">
+          
+            <img src="../imagens/crossfit.jpg" alt="2-crossfit" class="mainCardImg">
+            <h3 class="mainCategoryCardTitle">CROSSFIT</h3>
+            <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni provident ex aspernatur, id consequuntur illo vel et atque mollitia, maiores deleniti explicabo eos deserunt fugit ipsam excepturi facere a ducimus.</p>
+          
+        </div>
+        <div class="categoryCard item3">
+          
+            <img src="../imagens/natacao.jpg" alt="3-natação" class="mainCardImg">
+            <h3 class="mainCategoryCardTitle">NATAÇÃO</h3>
+            <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta fugit odio, iste officiis quasi veniam aperiam dolores cumque vel consectetur, praesentium alias minima molestias ullam? Optio asperiores similique ab tempore!</p>
+          
+        </div>
+        <div class="categoryCard item4">
+          
+            <img src="../imagens/roupas.jpg" alt="roupas" class="mainCardImg">
+            <h3 class="mainCategoryCardTitle">ROUPAS</h3>
+            <p class="mainCategoryCardDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime sapiente placeat sed eius pariatur aspernatur vero tempore, eaque inventore aliquam impedit ut nobis cum iste, magnam saepe in provident doloremque?</p>
+          
+        </div>
+        <div class="categoryCard item5">
+          
+            <img src="../imagens/basquete.jpg" alt="basquete" class="mainCardImg">
+            <h3 class="mainCategoryCardTitle">BASQUETE</h3>
+            <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis vero porro, ducimus ad ipsa repudiandae. Reprehenderit aut corporis ducimus fuga iure eligendi facere harum nobis neque. Labore voluptates impedit qui.</p>
+          
+        </div>
+        <div class="categoryCard item6">
+          
+            <img src="../imagens/corrida.jpg" alt="corrida" class="mainCardImg">
+            <h3 class="mainCategoryCardTitle">CORRIDA</h3>
+            <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem odit iste corporis, nobis distinctio quis inventore! Nam consectetur sapiente veniam nobis repellat eos vel, eaque ad quam! Odio, aperiam eius.</p>
+          
+        </div>
+        <div class="categoryCard item7">
+          
+            <img src="../imagens/surf.jpg" alt="surf" class="mainCardImg">
+            <h3 class="mainCategoryCardTitle">SURF</h3>
+            <p class="mainCategoryCardDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nobis nihil ipsa dolor eaque, provident tempore dolores, earum autem voluptas eius repudiandae recusandae magni at ad! Consequuntur atque hic totam.</p>
+          
+        </div>
+        <div class="categoryCard item8">
+          
+            <img src="../imagens/trilha.jpg" alt="trilha" class="mainCardImg">
+            <h3 class="mainCategoryCardTitle">TRILHA</h3>
+            <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui laboriosam asperiores libero ut dicta nobis ratione ullam. Accusantium, excepturi reiciendis debitis maiores optio aliquid ut, sequi, doloremque nam assumenda ullam.</p>
+          
+        </div>
+        <div class="categoryCard item9">
+          
+            <img src="../imagens/tenis.jpg" alt="tenis" class="mainCardImg">
+            <h3 class="mainCategoryCardTitle">TÊNIS</h3>
+            <p class="mainCategoryCardDescription">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos totam modi facere sit consequuntur explicabo saepe nobis labore officiis expedita. Excepturi perspiciatis mollitia provident nulla, dignissimos ducimus similique a distinctio.</p>
+          
+        </div>
       </div>
 
-      <div class="content item2">
-        <a href="#" class="link">
-          <img src="imagens/crossfit.jpg" alt="2-crossfit" class="images-content">
-          <h3>CROSSFIT</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni provident ex aspernatur, id consequuntur illo vel et atque mollitia, maiores deleniti explicabo eos deserunt fugit ipsam excepturi facere a ducimus.</p>
-        </a>
-      </div>
-
-      <div class="content item3">
-        <a href="#" class="link">
-          <img src="imagens/natacao.jpg" alt="3-natação" class="images-content">
-          <h3>NATAÇÃO</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta fugit odio, iste officiis quasi veniam aperiam dolores cumque vel consectetur, praesentium alias minima molestias ullam? Optio asperiores similique ab tempore!</p>
-        </a>
-      </div>
-
-      <div class="content item4">
-        <a href="#" class="link">
-          <img src="imagens/roupas.jpg" alt="roupas" class="images-content">
-          <h3>ROUPAS</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime sapiente placeat sed eius pariatur aspernatur vero tempore, eaque inventore aliquam impedit ut nobis cum iste, magnam saepe in provident doloremque?</p>
-        </a>
-      </div>
-
-      <div class="content item5">
-        <a href="#" class="link">
-          <img src="imagens/basquete.jpg" alt="basquete" class="images-content">
-          <h3>BASQUETE</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis vero porro, ducimus ad ipsa repudiandae. Reprehenderit aut corporis ducimus fuga iure eligendi facere harum nobis neque. Labore voluptates impedit qui.</p>
-        </a>
-      </div>
-
-      <div class="content item6">
-        <a href="#" class="link">
-          <img src="imagens/corrida.jpg" alt="corrida" class="images-content">
-          <h3>CORRIDA</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem odit iste corporis, nobis distinctio quis inventore! Nam consectetur sapiente veniam nobis repellat eos vel, eaque ad quam! Odio, aperiam eius.</p>
-        </a>
-      </div>
-
-      <div class="content item7">
-        <a href="#" class="link">
-          <img src="imagens/surf.jpg" alt="surf" class="images-content">
-          <h3>SURF</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nobis nihil ipsa dolor eaque, provident tempore dolores, earum autem voluptas eius repudiandae recusandae magni at ad! Consequuntur atque hic totam.</p>
-        </a>
-      </div>
-
-      <div class="content item8">
-        <a href="#" class="link">
-          <img src="imagens/trilha.jpg" alt="trilha" class="images-content">
-          <h3>TRILHA</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui laboriosam asperiores libero ut dicta nobis ratione ullam. Accusantium, excepturi reiciendis debitis maiores optio aliquid ut, sequi, doloremque nam assumenda ullam.</p>
-        </a>
-      </div>
-
-      <div class="content item9">
-        <a href="#" class="link">
-          <img src="imagens/tenis.jpg" alt="tenis" class="images-content">
-          <h3>TÊNIS</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos totam modi facere sit consequuntur explicabo saepe nobis labore officiis expedita. Excepturi perspiciatis mollitia provident nulla, dignissimos ducimus similique a distinctio.</p>
-        </a>
-      </div>
-
-      <aside class="secondary-content secontent">
-        <!-- 1-bicicleta  2- esportes de frio 3- skate 4- futebol americano 5- yoga--->
+      <aside class="sidebarContent">
+        
         <h3>CATEGORIAS EXTRAS</h3>
-        <div class="content item10">
-          <a href="#" class="sidelink">
-            <img src="imagens/bicicletas.jpg" alt="bicicleta" class="aside-images-content">
-            <p>BICICLETAS</p>
-          </a>
+        <div class="sidebarCard">
+          
+            <img src="../imagens/bicicletas.jpg" alt="bicicleta" class="sidebarCardImg">
+            <p class="sidebarCardTitle">BICICLETAS</p>
+          
         </div>
 
-        <div class="content item11">
-          <a href="#" class="sidelink">
-            <img src="imagens/esportesNaNeve.jpg" alt="esportes de frio" class="aside-images-content">
-            <p>ESPORTES DE FRIO</p>
-          </a>
+        <div class="sidebarCard">
+          
+            <img src="../imagens/esportesNaNeve.jpg" alt="esportes de frio" class="sidebarCardImg">
+            <p class="sidebarCardTitle">ESPORTES DE FRIO</p>
+          
         </div>
 
-        <div class="content item12">
-          <a href="#" class="sidelink">
-            <img src="imagens/skate.jpg" alt="skate" class="aside-images-content">
-            <p>SKATE</p>
-          </a>
+        <div class="sidebarCard">
+          
+            <img src="../imagens/skate.jpg" alt="skate" class="sidebarCardImg">
+            <p class="sidebarCardTitle">SKATE</p>
+          
         </div>
 
-        <div class="content item13">
-          <a href="#" class="sidelink">
-            <img src="imagens/futebolAmericano.jpg" alt="futebol americano" class="aside-images-content">
-            <p>FUTEBOL AMERICANO</p>
-          </a>
+        <div class="sidebarCard">          
+            <img src="../imagens/futebolAmericano.jpg" alt="futebol americano" class="sidebarCardImg">
+            <p class="sidebarCardTitle">FUTEBOL AMERICANO</p>
+          
         </div>
 
-        <div class="content item14">
-          <a href="#" class="sidelink">
-            <img src="imagens/yoga.jpg" alt="yoga" class="aside-images-content">
-            <p>YOGA</p>
-          </a>
+        <div class="sidebarCard">          
+            <img src="../imagens/yoga.jpg" alt="yoga" class="sidebarCardImg">
+            <p class="sidebarCardTitle">YOGA</p>
+          
         </div>
       </aside>
 
     </section>
 
     <footer class="footer">
-      <div><img src="imagens/logo-onebitcode.svg" alt="img-onebitcode" class="imagem-footer"></div>
-      <div class="link"><a href="#top">VOLTAR PARA O TOPO</a></div>
+      <img src="../imagens/logo-onebitcode.svg" alt="img-onebitcode" class="logoFooter">
+      <a href="#backToTop" class="footerAnchor">VOLTAR PARA O TOPO</a>
     </footer>
 
   </div>
