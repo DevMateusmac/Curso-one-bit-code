@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="imagens/FAVICON-SPACEX.png"
+      type="image/x-icon"
+    />
+    <!-- Bootstrap css-->
+    <link
+      rel="stylesheet"
+      href="../ai_bootstrapSass/node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <title>Rumo a marte - Exercício</title>
+    <style>
+      body {
+        background-image: url("imagens/backgroundLp.png");
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container bg-dark mt-3 w-75 p-3 d-flex flex-column mb-3">
+      <div><img src="imagens/logoOneBitDark.png" class="img-fluid w-50" alt=".."></div> 
+      <p class="paragraph text-light pt-5">1 - Qual o seu nome?</p>
+      <div class="input-group mb-1 p-3 ">
+        <span class="input-group-text">Primeiro nome:</span>
+        <div class="form-floating">
+          <input
+            type="text"
+            class="form-control"
+            id="floatingInputGroup1"
+            placeholder="Username"
+          />
+          <label for="floatingInputGroup1">Digite aqui...</label>
+        </div>
+      </div>
+
+      <div class="input-group mb-3 p-3">
+        <span class="input-group-text">Segundo nome:</span>
+        <div class="form-floating">
+          <input
+            type="text"
+            class="form-control"
+            id="floatingInputGroup1"
+            placeholder="Username"
+          />
+          <label for="floatingInputGroup1">Digite aqui...</label>
+        </div>
+      </div>
+
+      <p class="paragraph text-light">2 - Qual o seu gênero?</p>
+
+      <div class="form-check text-light">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="flexRadioDefault"
+          id="flexRadioDefault1"
+        />
+        <label class="form-check-label" for="flexRadioDefault1"> Homem </label>
+      </div>
+      <div class="form-check text-light">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="flexRadioDefault"
+          id="flexRadioDefault2"
+          checked
+        />
+        <label class="form-check-label" for="flexRadioDefault2"> Mulher </label>
+      </div>
+      <div class="form-check text-light">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="flexRadioDefault"
+          id="flexRadioDefault2"
+          checked
+        />
+        <label class="form-check-label" for="flexRadioDefault2">
+          Prefiro não informar
+        </label>
+      </div><br>
+
+      <p class="paragraph text-light">
+        3 - Marque os treinamentos que você fez:
+      </p>
+
+      <div class="form-check form-switch text-light">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          role="switch"
+          id="flexSwitchCheckDefault"
+        />
+        <label class="form-check-label" for="flexSwitchCheckDefault"
+          >Treinamento básico de astronauta</label
+        ><br />
+        <input
+          class="form-check-input"
+          type="checkbox"
+          role="switch"
+          id="flexSwitchCheckDefault"
+        />
+        <label class="form-check-label" for="flexSwitchCheckDefault"
+          >Treinamento físico básico</label
+        ><br />
+        <input
+          class="form-check-input"
+          type="checkbox"
+          role="switch"
+          id="flexSwitchCheckDefault"
+        />
+        <label class="form-check-label" for="flexSwitchCheckDefault"
+          >Treinamento avançado de astronauta </label
+        ><br />
+        <input
+          class="form-check-input"
+          type="checkbox"
+          role="switch"
+          id="flexSwitchCheckDefault"
+        />
+        <label class="form-check-label" for="flexSwitchCheckDefault"
+          >Treinamento físico intenso</label
+        >
+      </div>
+
+      <p class="paragraph text-light">
+        4 - Quais você acha que são suas qualidades?
+      </p>
+
+      <div class="form-check form-check-inline text-light">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="inlineCheckbox1"
+          value="option1"
+        />
+        <label class="form-check-label" for="inlineCheckbox1">Proativo</label>
+      </div>
+      <div class="form-check form-check-inline text-light">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="inlineCheckbox2"
+          value="option2"
+        />
+        <label class="form-check-label" for="inlineCheckbox2">Resistente</label>
+      </div>
+      <div class="form-check form-check-inline text-light">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="inlineCheckbox3"
+          value="option3"
+        />
+        <label class="form-check-label" for="inlineCheckbox3"
+          >Não vomito fácil</label
+        >
+      </div>
+      <div class="form-check form-check-inline text-light">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="inlineCheckbox3"
+          value="option3"
+        />
+        <label class="form-check-label" for="inlineCheckbox3"
+          >Não temo marciano</label
+        >
+      </div>
+      <div class="form-check form-check-inline text-light">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="inlineCheckbox3"
+          value="option3"
+        />
+        <label class="form-check-label" for="inlineCheckbox3"
+          >Já vi todos os Star Wars</label
+        >
+      </div>
+      <br />
+      <button type="button" class="btn btn-outline-danger">Enviar</button>
+      
+      <p class="paragraph text-light">
+        Feito por Lucas Queiroga © OneBitCode todos os direitos reservados - 2021
+      </p>
+    </div>
+
+    <!-- bootstrap script -->
+    <script src="../ai_bootstrapSass/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>

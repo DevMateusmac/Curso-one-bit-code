@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-image: url(../../imagens/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+  height: 100vh;
+}
+
+.container1{
+  background-color: $background-color;
+  width: 450px;
+  height: auto;
+}
+
+.topLogo{
+  width: 200px;
+}
+
+.paragraph{
+  margin: 8px 0px;
+}
+
+.btnSend{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: $button-collor;
+  border: 1px solid $button-collor;
+
+  &:hover{
+    background-color: $button-collor;
+    color: white;
+  }
+}
+
+.footer{
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
