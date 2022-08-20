@@ -39,10 +39,12 @@ do{
     }
     }while (diaDaSemana != "sair")
 }
+escolherDia()
 
-chosenOption = semana()
-switch(chosenOption){
-        case "sim": escolherDia()
-        break
-}
+
+// chosenOption = semana()
+// switch(chosenOption){
+//         case "sim": escolherDia()
+//         break
+// }
 
