@@ -1,0 +1,76 @@
+.container-gf{
+  @include img-content(cover, no-repeat, center, 100vh, 99.2vw)
+}
+
+.container-1f{
+  background-image: url(./../imagens/falcon9/01.jpg);
+}
+
+.container-2f{
+  background-image: url(./../imagens/falcon9/02.jpg);
+}
+
+.cont-2f{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 130px;
+  padding-left: 150px;
+  padding-right: 130px;
+}
+
+.itens-cont2f{
+  text-align: center;
+}
+
+.content-2f{
+  padding-left: 250px;
+  padding-top: 150px;
+  width: 800px;
+  font-size: 25px;
+  line-height: 50px ;
+}
+
+
+// carrossel1 content
+.img1{
+  margin-top: 250px;
+  margin-left: 250px;
+  width: 475px;
+}
+
+.container-4f{
+  background-image: url(./../imagens/falcon9/08.jpg);
+}
+
+// container 4 content
+.cn4f{
+  padding-top: 315px;
+  padding-left: 250px;
+  
+  width: 725px;
+}
+
+
+.container-6f{
+  background-color: black;
+}
+
+
+.cont-6f{
+  padding-top: 300px;
+  
+  a{
+    color: #555252;
+  }
+}
+
+.cont-btn6f{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn-cont6f{
+  height: 60px;
+}

@@ -1,0 +1,7 @@
+@mixin img-content ($background-size, $background-repeat, $background-position, $height, $width){
+  background-size: $background-size;
+  background-repeat: $background-repeat;
+  background-position: $background-position;
+  height: $height;
+  width: $width;
+}

@@ -1,0 +1,48 @@
+
+
+
+
+
+.topLogo{
+  width: 250px;
+}
+
+.arrow{
+  width: 100px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container-g{
+  @include img-content(cover, no-repeat, center, 100vh, 99.2vw)
+}
+
+
+ .container-1{
+  background-image: url(./../imagens/home/01.jpg);
+}
+
+.container-2{
+  background-image: url(./../imagens/home/03.jpg);
+}
+
+.container-3{
+  background-image: url(./../imagens/home/02.gif);
+}
+
+.container-4{
+  background-image: url(./../imagens/home/04.jpg);
+}
+.pc4{
+  width: 650px;
+}
+
+.footer{
+  height: 125px;
+  background-color: black;
+}
+.pfooter{
+  color: #555252;
+}

@@ -1,0 +1,13 @@
+// mixin
+@import "mix/mix.scss";
+// Import pages
+@import "pages/home.scss";
+@import "pages/falcon.scss";
+@import "pages/humanflight.scss";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+

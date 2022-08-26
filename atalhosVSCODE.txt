@@ -1,0 +1,17 @@
+Selecionar linha atual -> CTRL + L
+
+Quick fix -> CTRL + .
+
+Salvar todos -> CTRL + K + S 
+
+Reabrir editor -> CTRL + SHIFT + T 
+
+Deletar linha -> CTRL + SHIFT + K
+
+Substituir nos arquivos -> CTRL + SHIFT + H
+
+Nova janela -> CTRL + SHIFT + N 
+
+Ir para definição -> F12
+
+Dividir editor -> CTRL + \
