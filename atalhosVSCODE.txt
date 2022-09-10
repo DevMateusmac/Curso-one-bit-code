@@ -15,3 +15,15 @@ Nova janela -> CTRL + SHIFT + N
 Ir para definição -> F12
 
 Dividir editor -> CTRL + \
+
+Completar código -> CTRL + SPACE
+
+Indentar documento inteiro -> SHIFT + ALT + F
+
+Mover linhas de código -> ALT + ARROWUP/ARROWDOWN
+
+Copiar linhas -> SHIFT + ALT + ARROWUP/ARROWDOWN
+
+Apagar linha -> CTRL + SHIFT + K
+
+Comentar linha -> CTRL + ;
