@@ -158,6 +158,66 @@ funcao2()
 // fim do teste acima
 
 
+// arrow function
+{
+  // função comum 
+function alo (){
+  console.log('Alo, mundo!1')
+}
+alo()
+
+// função com parâmetro
+let nameTeste = 'Mateus1'
+function aloComParametro (name){
+  console.log('Alo, ' + name + '!')
+}
+aloComParametro(nameTeste)
+
+// função anônima
+let funcAnonima = function(){
+  console.log('Alo, mundo!2')
+}
+funcAnonima()
+
+// função anônima com parametro
+let nameTeste2 = 'Mateus2'
+let funcAnonima2 = function(name){
+  console.log('Alo, ' + name + '!')
+}
+funcAnonima2(nameTeste2)
+
+//arrow function
+let funcAnonima3 = () => {
+  console.log('Alo, mundo!3')
+}
+funcAnonima3()
+
+// arrow function com parametro
+let nameTest3 = 'Mateus3'
+let arrowFunc = (name) => {
+  console.log('Alo, ' + name + '!')
+}
+arrowFunc(nameTest3)
+
+// a mesma arrow function com parametro pode ser passada sem o parenteses
+let nameTest4 = 'Mateus4'
+let arrowFunc4 = name => {
+  console.log('Alo, ' + name + '!')
+}
+arrowFunc(nameTest4)
+
+// e também pode ser passada direto com o return
+let nameTest5 = 'Mateus5'
+let arrowFunc5 = (name) =>  console.log('Alo, ' + name + '!') // ou assim: let arrowFunc5 = (name) =>  {return console.log('Alo, ' + name + '!')}
+arrowFunc5(nameTest5)
+
+// mais um teste com função anonima
+let nameTest6 = 'Ma'
+let arrFunc6 = name => console.log('Alo, ' + name + '!')
+arrFunc6(nameTest6)
+}
+
+
 // teste com high order functions
 {
   // high order function
@@ -338,7 +398,7 @@ console.log(personagensOrdenados)
   //o resultado será: 06/02/2020
   // no meu caso eu fiz no exercício que está abaixo desse teste 
 }
-
+//fim do teste acima
 
 //Teste: exercício de objeto do curso, com o módulo atualizado de JS
 //exercício final do modulo novo de JS1 do curso OneBitCode
@@ -658,3 +718,66 @@ do{
   }
 }
 //fim do teste acima
+
+
+// Teste que fiz de contagem de index e contagem de itens com DOM, a cada clique ele atualiza o numero do novo elemento adicionado dinamicamente.
+{
+  let number = 1
+  
+  let listaUl = document.getElementById('listTest')
+  
+  let button = document.getElementById('addElement')
+  button.addEventListener('click', ev =>{
+    ev.preventDefault()
+    
+    let testeIndex = number
+    number ++
+  
+    let listaLi = document.createElement('li')
+    listaLi.id = "indice " + testeIndex
+    listaLi.innerText = "Número " + testeIndex
+  
+    let br = document.createElement('br')
+  
+    listaUl. appendChild(listaLi)
+    listaUl.appendChild(br)
+  
+    console.log(listaLi)
+  })
+  }
+  //fim do teste acima
+
+
+//teste de remover elemento do dom 
+{
+  let form = document.getElementById('form')
+  let buttonAdd = document.getElementById('addElement')
+  let newUl = document.createElement('ul')
+  
+  buttonAdd.addEventListener('click', function(ev){
+    ev.preventDefault()
+    let newLi = document.createElement('li')
+    newLi.id = "item"
+    let newImput = document.createElement('input')
+    newImput.type = "text"
+    let newButton = document.createElement('button')
+    newButton.id = "deleteButton"
+    newButton.innerText = "Excluir"
+    let br = document.createElement('br')
+    br.id = "br"
+    newLi.appendChild(newImput)
+    newLi.appendChild(newButton)
+    newUl.appendChild(newLi)
+    newUl.appendChild(br)
+    form.appendChild(newUl)
+  
+    newButton.addEventListener('click', function(ev){
+      ev.preventDefault()
+      let newLi = document.getElementById('item').remove()
+      let br = document.getElementById('br').remove()
+      
+    })
+  })
+  //
+  }
+  //fim do teste acima
