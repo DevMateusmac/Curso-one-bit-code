@@ -1,0 +1,4 @@
+Este exercício foi feito no módulo de DOM, e está sendo utilizado no exercício agora para inserir módulos.
+ 
+ O exercício consiste em: modularizar o código javascript da aplicação, dividindo o conteúdo do arquivo index.js em diferentes módulos utilizando a sintaxe dos ES Modules. Seu projeto deve conter **pelo menos 3 módulos**.
+
