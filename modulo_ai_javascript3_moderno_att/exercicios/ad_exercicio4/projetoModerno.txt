@@ -15,3 +15,6 @@ JA FEITO:
 - instalei o webpack 
 - instalei o babel loader 
 - instalei o style loader e css loader 
+
+
+// aqui tive que excluir e refazer do 0, pois deu algum erro entre as pastas na hora de compilar
