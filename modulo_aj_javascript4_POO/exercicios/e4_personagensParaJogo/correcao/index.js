@@ -1,0 +1,18 @@
+let Character = require('./Character')
+let Thief = require('./Thief')
+let Mage = require('./Mage')
+let Warrior = require('./Warrior')
+
+let arthur = new Mage("Arthur", 90, 4, 2, 14)
+let beatrice = new Thief("Beatrice", 140, 22, 8)
+let cain = new Warrior('Cain', 200, 14, 12, 4)
+
+console.table({arthur, beatrice, cain})
+cain.switchStance()
+arthur.attack(cain)
+beatrice.attack(arthur)
+cain.switchStance()
+cain.attack(arthur)
+arthur.heal(arthur)
+beatrice.attack(cain)
+console.table({arthur, beatrice, cain})
