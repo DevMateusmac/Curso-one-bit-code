@@ -1,0 +1,1 @@
+a correção está na mesma pasta e no mesmo arquivo, a minha tentativa está comentada, a correção está embaixo, porque se não vou ter que instalar o json server de novo, e já tem 3k+ para commitar e vai demorar mais

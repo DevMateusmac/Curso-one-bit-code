@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Minhas Finanças</title>
+</head>
+<body>
+  <h1>Minhas Finanças</h1>
+  <main>
+    <form action="">
+      <h2>Nova transação</h2>
+      <input type="hidden" name="id" id="id">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name">
+      <label for="amount">Valor:</label>
+      <input type="number" step="0.01" id="amount" name="amount">
+      <br><br>
+      <button>Salvar</button>
+    </form>
+    <div>
+      <h2>Saldo: <span id="balance"></span></h2>
+      <h2>Histórico de Transações</h2>
+      <section id="transactions"></section>
+    </div>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
+
+
+<!--
+  minha tentativa:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
+  <title>Finanças pessoais - Exercício final</title>
+</head>
+<body>
+  <main id="mainContent">
+  <form action="http://localhost:3000/transactions" method="post">
+    <h2>Fazer uma nova transação</h2>
+    <br>
+    <label for="username">Nome:</label>
+    <br>
+    <input type="text" name="username" id="user">
+    <br>
+    <label for="transferValue">Valor da transferência:</label>
+    <br>
+    <input type="text" name="transferValue" id="transferValue">
+    <br>
+    <br>
+    <button id="transfer">Transferir</button>
+    <aside id="asideContent">
+      <h2>Transferências</h2>
+      <div id="transfers">
+
+      </div>
+      
+    </aside>
+  </form>
+</main>
+</body>
+</html>
+-->
