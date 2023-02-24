@@ -143,11 +143,11 @@ console.log(fatorial(5))
  /*as funções anônimas são funções sem nome e que precisam ser atribuidas a uma constante ou variável, a funcionalidade delas é semelhante às variáveis let e var, uma função normal pode ser chamada no código antes mesmo de ser declarada, pois quando é lida, a função é jogada para o topo do código, já a função anônima só pode ser chamada após a declaração, se não da erro no código */
 
 // função normal
-funcao1()
 
 function funcao1(){
   console.log("Olá, mundo")
 }
+funcao1()
 
 //função anônima
 let funcao2 = function(){
@@ -158,7 +158,7 @@ funcao2()
 // fim do teste acima
 
 
-// arrow function
+// arrow function e funções
 {
   // função comum 
 function alo (){

@@ -1,0 +1,2 @@
+exercício do módulo antigo que consistem em pegar os dados do usuário e mostrar na tela.
+Aqui era apenas para exercitar as variáveis e etc, mas usei estrutura de repetição e condicionais.

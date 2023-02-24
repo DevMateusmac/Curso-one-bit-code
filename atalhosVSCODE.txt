@@ -29,3 +29,5 @@ Apagar linha -> CTRL + SHIFT + K
 Comentar linha -> CTRL + ;
 
 Selecionar palavra CTRL + SHIFT + SETA PARA DIREITA/ESQUERDA
+
+Selecionar todos os elementos na página que são iguais ao que foi selecionado -> CTRL + SHIFT + L (semelhante ao ctrl + d)
