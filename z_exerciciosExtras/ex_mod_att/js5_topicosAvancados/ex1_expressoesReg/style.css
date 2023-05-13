@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#form{
+  text-align: center;
+  padding-top: 22rem;
+}
+
+.input{
+  border-radius: 1.0rem;
+  border: 1.3rem, solid, green;
+  height: 1.5rem;
+  padding: .8rem;
+  width: 300px;
+}
+
+#check-btn{
+  border: .15rem solid;
+  border-radius: 1rem;
+  padding: .5rem;
+  cursor: pointer;
+  width: 150px;
+}
+
+#check-btn:hover{
+  background-color: #65f1c3;
+}
+
+
+
+
+.wrong{
+  border-color: #ff7474b6;
+}
+
+.right{
+  border-color: #44ff63e5;
+}

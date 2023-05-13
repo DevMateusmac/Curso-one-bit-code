@@ -16,6 +16,6 @@ function switchTheme() {
 }
 
 // adicionando os eventos 
-.addEventListener('click', useLightThemdocument.getElementById('lightBtn')e)
+document.addEventListener('click', useLightThemdocument.getElementById('lightBtn'))
 document.getElementById('darkBtn').addEventListener('click', useDarkTheme)
 document.getElementById('switchBtn').addEventListener('click', switchTheme)
