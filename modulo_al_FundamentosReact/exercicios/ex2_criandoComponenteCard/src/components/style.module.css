@@ -1,0 +1,81 @@
+.cardcontainer{
+  background-color: #d7e1e7;
+  border-radius: 1rem;
+  display: flex;
+  gap: 4rem;
+  height: 30rem;
+  margin: 2rem auto;
+  padding: 4rem;
+  width: 50rem;
+}
+
+.poster{
+  border: 8px solid #000000;
+  box-shadow: 0 24px 32px -16px rgb(0, 0, 0, 0.6);
+}
+
+
+.cardcontainer h2{
+  font-size: 1.75rem;
+}
+
+.cardcontainer p{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 2rem;
+}
+
+.cardcontainer button{
+  background-color: #121212;
+  border: 0;
+  border-radius: .5rem;
+  box-shadow: 0 2px 4px rgb(0, 0 , 0, 0.2);
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 2rem;
+  padding: .75rem 1.25rem;
+  transition: .3s;
+}
+
+.cardcontainer button:hover{
+  cursor: pointer;
+  margin-left: .5rem;
+}
+
+/* minha resolução */
+
+/* body{
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.cardContainer {
+  display: flex;
+  gap: 45px;
+  padding: 30px;
+  width: 700px;
+  background-color: #95c3ff8a;
+  border-radius: 10px;
+}
+
+
+.img{
+  width: 150px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.description{
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.btn{
+  height: 40px;
+  border-radius: 9px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 25px;
+} */
